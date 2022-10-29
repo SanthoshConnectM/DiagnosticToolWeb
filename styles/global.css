@@ -19,7 +19,6 @@ body {
 
 .header-bg{
     background-image: url("./../assets/images/5397807.jpg");
-    position: fixed; 
     top: 0; 
     left: 0; 
     min-width: 100%;
@@ -30,3 +29,16 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+#inner1 {
+    float:left; 
+    height: 500px;
+    width: 100%;
+ }
+ 
+ #inner2{
+    float:left; 
+    clear: left;
+    height: 500px;
+    width: 100%;
+ }
