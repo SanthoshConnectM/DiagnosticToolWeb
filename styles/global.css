@@ -42,3 +42,12 @@ body {
     height: 500px;
     width: 100%;
  }
+
+ #footer{
+    float:left; 
+    margin-top: 30px;
+    clear: left;
+    background-color: aqua;
+    height: 200px;
+    width: 100%;
+ }
