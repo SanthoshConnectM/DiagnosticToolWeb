@@ -140,6 +140,51 @@ img {vertical-align: middle;}
   background-color: #717171;
 }
 
+.sessoiondot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .sessoiondot:hover {
+  background-color: #717171;
+}
+
+.dataviewdot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dataviewdot:hover {
+  background-color: #717171;
+}
+
+.dataloggingdot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dataloggingdot:hover {
+  background-color: #717171;
+}
+
 /* Fading animation */
 .fade {
   animation-name: fade;
