@@ -3,7 +3,7 @@ showDataLoggingSlides(slideDataLoggingIndex);
 function currentDataLoggingSlide(n) {
     showDataLoggingSlides(slideDataLoggingIndex = n);
 }
-function currentDataLoggingSlide(n) {
+function showDataLoggingSlides(n) {
     let i;
     let slides = document.getElementsByClassName("myDataLoggingSlides");
     let dots = document.getElementsByClassName("dataloggingdot");
