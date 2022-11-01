@@ -37,10 +37,9 @@ body {
  }
  
  #inner2{
-    float:left; 
     clear: left;
+    align-items: center;
     height: 500px;
-    width: 100%;
  }
 
  #footer{
